@@ -19,9 +19,12 @@ p {
 
 
 body{
-	background-color: rgb(218, 153, 194);
-	color: rgb(156, 158, 49);
+	background-color: #000000;
+	color: rgb(10, 168, 245);
 	color: #4169E1CC;
 	color: rgba(196, 194, 191, 0.8);
-	color: #2775b6CC;
+	color: #f1b8e4cc;
+}
+p {
+    text-decoration: none;
 }
