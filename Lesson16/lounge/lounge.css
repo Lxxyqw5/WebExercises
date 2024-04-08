@@ -27,4 +27,17 @@ h2 {
   font-style: italic;
   color: #444;
   font-family: Georgia,"Times New Roman";
+  background-image: url(images/background.gif);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 25px;
+  padding-left: 80px;
+  margin-right: 250px;
+  border-top-right-radius: 15em;
+  border-top-left-radius: 15em;
+  border-bottom-left-radius: 15em;
+  border-bottom-right-radius: 15em;
+  border-top: 15em;
+  border-bottom: 15em;
+  border-color: rgb(115, 47, 124);
 }
