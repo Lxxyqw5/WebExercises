@@ -1,7 +1,7 @@
 body {
 	font-size: small;
 	font-family: Verdana, Helvetica, Arial;
-  line-height: 1.6em;
+    line-height: 1.6em;
 }
 
 h1, h2 {
@@ -16,30 +16,30 @@ h2 {
 	font-size: 1.3em;
 }
 
-.guarantee {
-  border-color: white;
-  border-width: 1px;
-  border-style: dashed;
-  background-color: #a7cece;
-  padding: 25px;
-  margin: 30px;
-  line-height: 1.9em;
-  font-style: italic;
-  color: #444;
-  font-family: Georgia,"Times New Roman";
-  background-image: url(images/background.gif);
-  background-repeat: no-repeat;
-  background-position: top left;
-  padding: 25px;
-  padding-left: 80px;
-  margin-right: 250px;
-  border-top-right-radius: 15em;
-  border-top-left-radius: 15em;
-  border-bottom-left-radius: 15em;
-  border-bottom-right-radius: 15em;
-  border-top: 15em;
-  border-bottom: 15em;
-  border-color: rgb(115, 47, 124);
+#guarantee {
+    border-color: white;
+    border-width: 1px;
+    border-style: dashed;
+    background-color: #a7cece;
+    padding: 25px;
+    margin: 30px;
+    line-height: 1.9em;
+    font-style: italic;
+    color: #444;
+    font-family: Georgia,"Times New Roman";
+    background-image: url(images/background.gif);
+    background-repeat: no-repeat;
+    background-position: top left;
+    padding: 25px;
+    padding-left: 80px;
+    margin-right: 250px;
+    border-top-right-radius: 15em;
+    border-top-left-radius: 15em;
+    border-bottom-left-radius: 15em;
+    border-bottom-right-radius: 15em;
+    border-top: 15em;
+    border-bottom: 15em;
+    border-color: rgb(115, 47, 124);
 }
 .elixirs {
     border-width: thin;
@@ -54,6 +54,7 @@ h2 {
     background-repeat: repeat-x;
     text-align: center;
     line-height: 1em;
+    float: right;
 }
 h1,h2 {
     color: #007e7e;
@@ -66,4 +67,31 @@ h3 {
 }
 div h2 {
     color: black;
+}
+.left {
+    margin-right: 10px;
+}
+.right {
+    margin-left: 20px;
+}
+.ruler {
+    display: inline-block;
+    width: 30px;
+}
+.right {
+    float: right;
+}
+div.block {
+    width: 45vw;
+    height: 20vh;
+    border: 2px solid black;
+}
+.top {
+    margin-bottom: 10px;
+}
+.bottom {
+	margin-top: 20px;
+}
+.ruler {
+	height: 20px;
 }
