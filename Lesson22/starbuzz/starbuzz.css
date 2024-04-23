@@ -16,6 +16,10 @@ body {
   font-size:        105%;
   padding:          15px;
   margin:           0px 300px 10px 10px;
+  position:relative;
+  top: 0px;
+  left: 200px;
+
 }
 
 .sidebar {
@@ -25,11 +29,11 @@ body {
   margin:           0px 10px 10px 10px;
   width: 250px;
   float: right;
-  position:  absolute;
+  /*position:  absolute;
 	top:          100px;
 	right:        200px;
 	width:        280px;
-  z-index: 200;
+  z-index: 200;*/
 }
 
 .footer {
@@ -39,7 +43,7 @@ body {
   padding:          15px;
   margin:           10px;
   font-size:        90%;
-  clear: right;
+  /*clear: right;*/
 }
 
 h1 {
@@ -72,7 +76,7 @@ a:visited {
 	margin-left:          auto;
 	margin-right:         auto;
 }
-.ad {
+/*.ad {
 	position:        absolute;
 	top:                150px;
 	left:               100px;
@@ -80,4 +84,4 @@ a:visited {
 	height:              80px;
 	background-color: #ccbb00;
   z-index: 1;
-}
+}*/
