@@ -68,7 +68,7 @@ a:visited {
 }
 
 .all-content {
-    width: 800px;
+    width: 1100px;
     /* height: 200px; */
     /* background-color: aqua; */
     padding-top: 5px;
@@ -85,4 +85,10 @@ div.tableContainer {
 
 div.talbeRow {
     display: table-row;
+}
+
+.drinks {
+    display: table-cell;
+    background-color: #efe5d0 ;
+    padding:15px;
 }
