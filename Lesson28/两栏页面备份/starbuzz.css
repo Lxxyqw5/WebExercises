@@ -68,7 +68,7 @@ a:visited {
     border-bottom: thin dotted #675c47;
 }
 
-.all-content {
+.all-content-backup {
     width: 1100px;
     /* height: 200px; */
     /* background-color: aqua; */
@@ -110,4 +110,11 @@ div.talbeRow {
 	background-image: url('images/header.gif');
 	background-position: 260px 0px; /* 向左偏移 */
     float: right;
+}
+section.main, section.blog {
+    display: table-cell;
+    background:       #efe5d0 url(images/background.gif) top left;
+    font-size:        105%;
+    padding:          15px;
+    vertical-align: top;
 }
