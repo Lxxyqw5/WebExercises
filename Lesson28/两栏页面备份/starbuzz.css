@@ -12,7 +12,7 @@ body {
 }
 
 
-.main {
+div.blog {
     display: table-cell;
     vertical-align: top;
     background: #efe5d0 url(images/background.gif) top left;
