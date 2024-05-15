@@ -1,11 +1,4 @@
-/*header {
-  margin: 20px 20px 20px 20px;
-  height: 100px;
-}*/
 
-/*body {
-  font-size: 18px;
-}*/
 
 .allcontent {
   font-family: inherit;
@@ -21,30 +14,73 @@
   width: 1200px;
   margin-left: auto;
 	margin-right: auto;
+  /* height: 201px;
+  padding-bottom: 20px; */
 }
 
-.Assicurazione {
-  padding-left: 10px;
-  padding-right: 10px;
-  display: table-cell;
+.z1 {
   background-color: #822433;
-  /*position: relative;*/
-  height: 201px;
-  padding-bottom: 20px;
+  /*padding: 0px;*/
+  /* display: inline-block; */
+  width: 150px;
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 30px;
 }
 
-.Aword a:link {
-  /*font-family: inherit;
-  font-weight: 500;
-  text-align: center;*/
+.z4word a:link {
   color: #fff;
-  /*text-transform: uppercase;
-  font-size: 17px;
-  line-height: 16px;*/
 }
 
-.GLI {
-  display: table-cell;
+.z1 img {
+  width: 150px;
+  height: 105px;
+}
+
+.z2 {
+  display: inline-block;
   background-color: #c54c00;
-  padding-bottom: 20px;
+  width: 150px;
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.z2 img {
+  width: 150px;
+  height: 105px;
+}
+
+.z3 {
+  display: inline-block;
+  background-color: #3e6041;
+  width: 150px;
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.z3 img {
+  width: 150px;
+  height: 105px;
+}
+
+.z4 {
+  display: inline-block;
+  background-color: #c54c00;
+  width: 150px;
+  height: 160px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.z4 img {
+  width: 140px;
+  height: 105px;
+}
+
+.z4word {
+  width: 140px;
+  margin-left: auto;
+	margin-right: auto;
 }
