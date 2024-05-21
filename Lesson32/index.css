@@ -1,4 +1,4 @@
-.allcontent {
+.kuai1jia2 {
   font-family: inherit;
   font-weight: 500;
   text-align: center;
@@ -85,16 +85,56 @@ a:hover {
 
 .tu1 img,.tu2 img,.tu3 img {
   height: 300px;
+  width: 360px;
 }
 
 .tu1,.tu2,.tu3 {
   display: block;
-  margin-bottom: 20px;
   float: left;
 }
 
-.SAP {
+.tu1 img {
+  padding: 0px 10px 10px 0px;
+}
+
+.tu2 img {
+  padding: 0px 10px 10px 10px;
+}
+
+.tu3 img {
+  padding: 0px 0px 10px 10px;
+}
+
+/* .SAP {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 1.5em;
+} */
+
+.kuai3 {
+  color: #333333;
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 16px;
+}
+
+h1 {
+  font-size: 18px;
+  font-family: inherit;
+  line-height: 16px;
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.biao1 {
+  width: 240px;
+  height:269px;
+  background-color: #c54c00;
+  display: block;
+  padding: 20px;
+  float: left;
 }
