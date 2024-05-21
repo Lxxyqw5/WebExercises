@@ -70,15 +70,13 @@ a:hover {
 
 .z6 {
   background-color: #756f6f;
+  margin: 10px 0px 10px 10px;
 }
 
 .z1 {
   margin: 10px 10px 10px 0px;
 }
 
-.z6 {
-  margin: 10px 0px 10px 10px;
-}
 .z2,.z3,.z4,.z5 {
   margin: 10px;
 }
@@ -105,11 +103,12 @@ a:hover {
   padding: 0px 0px 10px 10px;
 }
 
-/* .SAP {
-  font-family: 'Open Sans', sans-serif;
+.lingdai1 {
+  display: block;
+  height: auto;
   font-size: 18px;
   line-height: 1.5em;
-} */
+}
 
 .kuai3 {
   color: #333333;
@@ -118,23 +117,44 @@ a:hover {
   line-height: 16px;
 }
 
-h1 {
-  font-size: 18px;
-  font-family: inherit;
-  line-height: 16px;
-  margin-bottom: 5px;
-}
-
 ul {
   list-style-type: none;
   padding: 0px;
 }
 
 .biao1 {
-  width: 240px;
-  height:269px;
   background-color: #c54c00;
+  margin-right: 10px;
+}
+.biao2 {
+  background-color: #006778;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.biao3 {
+  background-color: #3e6041;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.biao4 {
+  background-color: #5d5949;
+  margin-left: 10px;
+}
+
+.biao1,.biao2,.biao3,.biao4 {
+  width: 225px;
+  height:230px;
   display: block;
   padding: 20px;
   float: left;
 }
+
+.biaoti1,.biaoti2,.biaoti3,.biaoti4 {
+  font-weight: lighter;
+  font-weight: 300;
+  font-size: 9px;
+  font-family: inherit;
+  line-height: 1.5em;
+  margin-bottom: 5px;
+}
+
