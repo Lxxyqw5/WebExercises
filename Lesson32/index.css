@@ -1,5 +1,7 @@
 body {
-  margin: 0px;
+  width: 1200px;
+  margin-left: auto;
+	margin-right: auto;
 }
 
 .allcontent {
@@ -17,7 +19,7 @@ body {
   line-height: 16px;
 }
 
-.z1,.z2,.z3,.z4,.z5,.z6 {
+.z7,.z8,.z9,.z10,.z11,.z12 {
   display:block;
   width: 170px;
   height: 180px;
@@ -26,14 +28,14 @@ body {
   float: left;
 }
 
-.z1word,.z2word,.z3word,.z4word,.z5word,.z6word {
+.z7word,.z8word,.z9word,.z10word,.z11word,.z12word {
   width: 140px;
   padding: 20px 0px 0px 0px;
   margin-left: auto;
 	margin-right: auto;
 }
 
-.z1 {
+.z7 {
   background-color: #822433;
 }
 
@@ -51,37 +53,37 @@ a:hover {
   border-bottom: none;
 }
 
-.z1 img,.z2 img,.z3 img,.z4 img,.z5 img,.z6 img {
+.z7 img,.z8 img,.z9 img,.z10 img,.z11 img,.z12 img {
   width: 150px;
   height: 105px;
 }
 
-.z2 {
+.z8 {
   background-color: #c54c00;
 }
 
-.z3 {
+.z9 {
   background-color: #3e6041;
 }
 
-.z4 {
+.z10 {
   background-color: #c54c00;
 }
 
-.z5 {
+.z11 {
   background-color: #756f6f;
 }
 
-.z6 {
+.z12 {
   background-color: #756f6f;
   margin: 10px 0px 10px 10px;
 }
 
-.z1 {
+.z7 {
   margin: 10px 10px 10px 0px;
 }
 
-.z2,.z3,.z4,.z5 {
+.z8,.z9,.z10,.z11 {
   margin: 10px;
 }
 
@@ -174,10 +176,13 @@ ul {
 }
 
 .biaoti1,.biaoti2,.biaoti3,.biaoti4 {
-  font-weight: lighter;
-  font-weight: 300;
   font-size: 9px;
   font-family: inherit;
   line-height: 1.5em;
+}
+
+h1 {
+  font-weight: lighter;
+  font-weight: 300;
 }
 
